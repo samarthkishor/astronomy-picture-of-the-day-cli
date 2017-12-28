@@ -1,3 +1,6 @@
+import json
+
+
 def get_dates(start, end):
     dates = []
     date = int(start)
@@ -45,12 +48,15 @@ def main():
     start_date = ''
     end_date = ''
     dates = []
+
+    print('Building dates.csv...')
+
     with open('daterange.csv', 'r') as f:
         for line in f:
             try:
                 start_date, end_date = line.strip().split(',')
             except ValueError:
-                print('Error: Too many dates in the csv file.')
+                print('Error: Too many dates in daterange.csv')
 
     with open('dates.csv', 'w') as f:
         dates = get_dates(start_date, end_date)
@@ -59,6 +65,8 @@ def main():
                 f.write(date + ',')
             else:
                 f.write(date)
+
+    print('...done')
 
 
 if __name__ == '__main__':
