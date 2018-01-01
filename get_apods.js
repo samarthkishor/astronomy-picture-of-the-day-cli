@@ -49,7 +49,7 @@ function* run() {
           );
         })
         .then(result => {
-          // check if the page contains an image, else assume it contains an embedded video
+          // Check if the page contains an image, else assume it contains an embedded video
           if (result !== null) {
             return nightmare
               .click('body > center:nth-child(1) > p:nth-child(3) > a > img')
