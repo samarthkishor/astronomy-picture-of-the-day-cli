@@ -14,8 +14,13 @@ def get_dates(start, end):
         day = int(str(date)[-2:])
         month = int(str(date)[2:4])
 
+        # Make sure dates between 1/1/2000 and 1/1/2010 are correct
+        if len(str(date)) == 5:
+            year = int(str(date)[0])
+            month = int(str(date)[1:3])
+
         if month < 9:
-            # account for leap years
+            # Account for leap years
             if month == 2 and year % 4 == 0:
                 if day < 29:
                     date += 1
@@ -25,21 +30,32 @@ def get_dates(start, end):
                 date += 1
             else:
                 date = int(str(year) + '0' + str(month + 1) + '01')
-            dates.append(str(date))
+            if year < 10:
+                dates.append('0' + str(date))
+            else:
+                dates.append(str(date))
 
         elif 9 <= month < 12:
             if day < days_in_month[month]:
                 date += 1
             else:
                 date = int(str(year) + str(month + 1) + '01')
-            dates.append(str(date))
+
+            if year < 10:
+                dates.append('0' + str(date))
+            else:
+                dates.append(str(date))
 
         elif month == 12:
             if day < days_in_month[month]:
                 date += 1
             else:
                 date = int(str(year + 1) + '0101')
-            dates.append(str(date))
+
+            if year < 10:
+                dates.append('0' + str(date))
+            else:
+                dates.append(str(date))
 
     return dates
 

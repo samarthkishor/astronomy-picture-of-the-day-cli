@@ -1,3 +1,4 @@
+import os
 import sys
 import subprocess
 from Naked.toolshed.shell import execute_js
@@ -7,6 +8,11 @@ import build_pdf
 
 
 def main():
+    if not os.path.isdir('./temp/dates'):
+        os.mkdir('./temp/dates')
+    if not os.path.isdir('./temp/pictures'):
+        os.mkdir('./temp/pictures')
+
     get_dates = execute_js('get_dates.js')
 
     if get_dates:

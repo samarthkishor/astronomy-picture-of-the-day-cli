@@ -1,1 +1,29 @@
-{"elements": []}
+{
+    "elements": [
+        {
+            "date": "030103",
+            "picture": "./temp/pictures/030103.jpg",
+            "explanation": "    Not so long ago and not so far, far away, a galaxy was born.  Seen in this Hubble Space Telescope image, the island universe of stars, gas, and dust cataloged as POX 186 is a mere 68 million light-years distant toward an uncrowded region in the constellation Virgo.  POX 186 is truly dwarfed by galaxies like our own Milky Way.  The diminutive galaxy is about 900 light-years across with around 10 million stars, compared to the Milky Way's 100,000 light-year span and more than 200 billion stars.  Cosmically speaking, POX 186 is also very young as the Hubble snapshot reveals a disturbed galaxy that is likely the result of a 100 million year old collision between two even smaller star systems.  In fact, POX 186 observations suggest that such isolated, small galaxies may be the last to form, since the most massive galaxies in the universe seem to have formed billions of years ago."
+        },
+        {
+            "date": "030104",
+            "picture": "./temp/pictures/030104.jpg",
+            "explanation": "    Stars of many types and colors are visible in this Hubble Space Telescope close-up of a starfield in the  Large Magellanic Cloud (LMC).    Over 10,000 stars are visible -- the brightest of which are  giant stars.    Were our  Sun at the distance of these stars, about 170,000 light-years, it would hardly be discernable.    By contrast, only a few thousand individual stars can be seen in the night sky with the unaided eye,  and many of these lie within only a few hundred light-years.    So typically, the light we see from  nearby stars  left during the age of our great-grand-parents,  while light from LMC stars started its  journey well before the dawn of recorded human history."
+        },
+        {
+            "date": "030105",
+            "picture": "./temp/pictures/030105.jpg",
+            "explanation": "    Birds  don't fly this high.    Airplanes don't go this fast.    The Statue of Liberty  weighs less.    No species  other than human can even comprehend what is going on,  nor could any human just a millennium ago.   The launch of a  rocket bound for space is an event that  inspires awe  and challenges description.    Pictured above, the  Space Shuttle Atlantis lifted off to visit the  International Space Station  during the early morning hours of July 12.   From a standing start, the two million kilogram  rocket ship left to circle the  Earth where the  outside air is too thin to breathe and where there is  little  noticeable onboard gravity.   Rockets bound for space are now  launched from somewhere on Earth  about once a week."
+        },
+        {
+            "date": "030106",
+            "picture": "./temp/pictures/030106.jpg",
+            "explanation": "    Sometimes, during a  total eclipse of the Sun, a  strange shadow of darkness  can be seen stretching off into the distance.    Called a shadow cone, they are visible because the  Earth's atmosphere is not completely transparent,  scattering sunlight and hence  appearing blue during the day.    Shadow cones are particularly dramatic for  eclipses near the horizon,  as geometry creates a long corridor of sun-blocked air.    Visible above  is a shadow cone caught during a  total solar eclipse  visible last month from South  Australia.    The eclipsed Sun  itself still appears bright because of light from the  surrounding corona.    The digital camera on the left is zoomed in to show a  better image of the actual eclipse."
+        },
+        {
+            "date": "030107",
+            "picture": "./temp/pictures/030107.jpg",
+            "explanation": "     Open cluster M38  can be seen with binoculars toward the constellation of Auriga.    M38 is considered an intermediately rich open cluster  of stars, each of which is about 200 million years old.   Located in the disk of our Milky Way galaxy, M38  is still young enough to house many bright blue stars,  although it's brightest star is a yellow  giant shining 900 times brighter than our  Sun.   The cluster spans roughly 25  light-years and lies about 4000 light-years away.    M38, pictured above, is found only about 2.5 degrees northwest of open cluster  M36.  Loosely bound by gravity, open clusters spread out over time as they orbit the galactic center and their member stars slowly escape."
+        }
+    ]
+}
