@@ -1,8 +1,7 @@
 {
   "name": "astronomy-picture-of-the-day",
   "version": "1.0.0",
-  "description": "Astronomy Picture of the Day is a simple toolto generate a PDF of pictures and explanations from https://apod.nasa.gov/",
-  "main": "index.js",
+  "description": "Astronomy Picture of the Day CLI is a simple tool to generate a PDF of pictures and explanations from https://apod.nasa.gov/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
