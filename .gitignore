@@ -3,3 +3,4 @@ node_modules
 apod/temp/explanations/explanations.json
 *.csv
 *.jpg
+*.pdf
