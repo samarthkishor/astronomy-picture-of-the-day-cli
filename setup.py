@@ -8,4 +8,4 @@ setup(
     description=
     'Astronomy Picture of the Day CLI is a simple tool to generate a PDF of pictures and explanations from https://apod.nasa.gov',
     author='Samarth Kishor',
-    packages=['PyLaTeX', 'Naked'])
+)
