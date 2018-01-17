@@ -1,5 +1,5 @@
 {
-  "name": "astronomy-picture-of-the-day",
+  "name": "astronomy-picture-of-the-day-cli",
   "version": "1.0.0",
   "description": "Astronomy Picture of the Day CLI is a simple tool to generate a PDF of pictures and explanations from https://apod.nasa.gov/",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samarthkishor/astronomy-picture-of-the-day.git"
+    "url": "git+https://github.com/samarthkishor/astronomy-picture-of-the-day-cli.git"
   },
   "author": "Samarth Kishor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samarthkishor/astronomy-picture-of-the-day/issues"
+    "url": "https://github.com/samarthkishor/astronomy-picture-of-the-day-cli/issues"
   },
-  "homepage": "https://github.com/samarthkishor/astronomy-picture-of-the-day#readme",
+  "homepage": "https://github.com/samarthkishor/astronomy-picture-of-the-day-cli#readme",
   "dependencies": {
     "chalk": "^2.3.0",
     "clear": "0.0.1",

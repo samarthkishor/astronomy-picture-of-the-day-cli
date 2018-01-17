@@ -3,8 +3,9 @@
 from distutils.core import setup
 
 setup(
-    name='Astronomy Picture of the Day',
+    name='Astronomy Picture of the Day CLI',
     version='1.0',
-    description='',
+    description=
+    'Astronomy Picture of the Day CLI is a simple tool to generate a PDF of pictures and explanations from https://apod.nasa.gov',
     author='Samarth Kishor',
-    packages=['pylatex', 'Naked'])
+    packages=['PyLaTeX', 'Naked'])
