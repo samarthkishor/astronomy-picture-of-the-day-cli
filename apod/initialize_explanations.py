@@ -1,9 +1,13 @@
 import json
+import os
 
 
 def main():
     print('Initializing explanations...')
     explanations_data = {'elements': []}
+
+    if not os.path.isdir('./temp/explanations'):
+        os.mkdir('./temp/explanations')
 
     with open('./temp/explanations/explanations.json', 'w') as outfile:
         json.dump(explanations_data, outfile)
