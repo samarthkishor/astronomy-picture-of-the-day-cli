@@ -1,5 +1,6 @@
 from pylatex import Document, Section, StandAloneGraphic, NewPage
 from pylatex.utils import bold
+import sys
 import json
 
 

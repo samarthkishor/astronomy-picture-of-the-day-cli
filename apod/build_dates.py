@@ -1,7 +1,9 @@
-import json
+import sys
 
 
 def get_dates(start, end):
+    '''Returns a list of yyyymmdd formatted dates from the start date to the end
+    date'''
     dates = []
     date = int(start)
     end = int(end)
@@ -11,8 +13,8 @@ def get_dates(start, end):
 
     while date < end:
         year = int(str(date)[0:2])
-        day = int(str(date)[-2:])
         month = int(str(date)[2:4])
+        day = int(str(date)[-2:])
 
         # Make sure dates between 1/1/2000 and 1/1/2010 are correct
         if len(str(date)) == 5:
