@@ -6,13 +6,19 @@ A program that scrapes [NASA's Astronomy Picture of the Day website](https://apo
 > Note: Make sure you have LaTeX, Node.js, and Python 3 installed before proceeding. The program was created and tested on a computer running macOS but it should also work on Linux. It uses Node for the web scraper and Python for creating and compiling the LaTeX file into a pdf.
 
 First clone the repository and run
+
     npm install
+
 and
+
     pip3 install -r requirements.txt
+
 to install all the dependencies
 
 Finally, navigate to the `apod` directory and run
+
     python3 apod.py
+
 to start the program
 
 ## Notes
