@@ -13,13 +13,23 @@ and
 
     pip3 install -r requirements.txt
 
-to install all the dependencies
+to install all the dependencies.
 
 Finally, navigate to the `apod` directory and run
 
     python3 apod.py
 
-to start the program
+to start the program.
+
+If the program runs successfully, you can paste the following code into your `bashrc` to run the program from any directory by typing `apod` into the terminal:
+
+    function apod() {
+        if [ -e  PATH_TO_DIRECTORY/apod/apod.py ]; then
+            cd PATH_TO_DIRECTORY/apod/ && python3 apod.py
+        else
+            echo "Something went wrong..."
+        fi
+    }
 
 ## Notes
 - See the [PyLaTeX](https://jeltef.github.io/PyLaTeX/latest/index.html) and [Nightmare](https://github.com/segmentio/nightmare#api) documentation for additional information. This program wouldn't exist without these excellent projects.
