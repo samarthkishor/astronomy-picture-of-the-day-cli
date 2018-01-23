@@ -20,7 +20,7 @@
     "clear": "0.0.1",
     "dateformat": "^3.0.2",
     "figlet": "^1.2.0",
-    "inquirer": "^4.0.1",
+    "inquirer": "^4.0.2",
     "inquirer-datepicker-prompt": "^0.4.2",
     "nightmare": "^2.10.0",
     "vo": "^4.0.2"
