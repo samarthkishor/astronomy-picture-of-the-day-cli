@@ -3,6 +3,11 @@ const nightmare = Nightmare();
 const vo = require('vo');
 const fs = require('fs');
 
+/**
+ * Gets the Astronomy Picture of the Day explanation from the APOD website for a given day.
+ * @ param {string} date - The date of the explanation
+ * @ returns {string} The explanation for the given date
+ */
 function getExplanation(date) {
   return nightmare => {
     nightmare
